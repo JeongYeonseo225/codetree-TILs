@@ -8,7 +8,7 @@ rem = a%b
 print(f"{quo}.",end='') #정수
 
 for _ in range(20): #소수 21번째에서 버림이므로 20번째자리까지 나타내줘야함.
-    a*=10
-    quo = a//b
-    a= a%b
+    rem*=10
+    quo = rem//b
+    rem=rem%b
     print(quo,end='')
