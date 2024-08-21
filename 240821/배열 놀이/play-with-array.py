@@ -17,3 +17,4 @@ for _ in range(q):
         e=quest[2]
         for i in range(s-1,e):
             print(arr[i],end=' ')
+        print()
