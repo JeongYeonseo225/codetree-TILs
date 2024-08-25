@@ -15,7 +15,12 @@ arr=RLE.split()
 newarr=[]
 for elem in arr:
     newarr.append(elem[0])
-    newarr.append(len(elem))
-print(len(newarr))
+    newarr.append(f"{len(elem)}")
+ 
+nRLE=""
 for elem in newarr:
+    nRLE+=elem
+
+print(len(nRLE))
+for elem in nRLE:
     print(elem,end='')
