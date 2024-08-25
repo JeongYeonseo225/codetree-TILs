@@ -4,12 +4,11 @@ for _ in range(10):
     arr.append(msg)
 char=input()
 
-satis=True
+satis=False
 for elem in arr:
     if elem[-1] == char:
         print(elem)
-    else:
-        satis=False
+        satis=True
 
 if satis==False:
     print('None')
