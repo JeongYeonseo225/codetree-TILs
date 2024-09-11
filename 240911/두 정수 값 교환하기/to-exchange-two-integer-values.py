@@ -3,5 +3,5 @@ def f(a,b):
     return a,b
 
 n,m=tuple(map(int,input().split()))
-for elem in f(n,m):
-    print(elem,end=' ')
+a,b=f(n,m)
+print(a,b)
