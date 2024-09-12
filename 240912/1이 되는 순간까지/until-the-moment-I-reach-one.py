@@ -4,7 +4,7 @@ cnt=0
 def f(N):
     global cnt
     if N==1:
-        return
+        return 0
     
     if N%2==0:
         f(N//2)
