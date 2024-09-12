@@ -1,9 +1,9 @@
 def f(a,b):
-    arr=[]
-    arr.append(a)
-    arr.append(b)
-    return min(arr)*2, max(arr)+25
+    if a<b:
+        return 2*a, b+25
+    else:
+        return a+25, 2*b
 
 a,b=tuple(map(int,input().split()))
-mi,ma=f(a,b)
-print(mi,ma)
+a1,b1=f(a,b)
+print(a1,b1)
