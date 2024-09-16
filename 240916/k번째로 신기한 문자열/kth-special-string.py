@@ -5,7 +5,7 @@ arr=[]
 
 for _ in range(n):
     word=input()
-    if T in word:
+    if T in word[0:2]:
         arr.append(word)
 arr.sort()
 print(arr[k-1])
